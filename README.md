@@ -1,9 +1,13 @@
 # CryptoClustering
 
-## Purpose
-In this project I aim to apply my understanding of the K-means algorithm and principal component analysis (PCA) to classify cryptocurrencies according to their price fluctuations across various timeframes. Specifically, price changes over intervals spanning 24 hours, 7 days, 30 days, 60 days, 200 days, and 1 year.
+Overview
+This project demonstrates how to cluster cryptocurrencies based on their market performance using K-means clustering and Principal Component Analysis (PCA). The dataset includes various price change percentages over different time periods for multiple cryptocurrencies.
 
-I look to identify optimal k values and compare k values from scaled data and PCA data. I will also answer questions such as, "What is the total explained variance of the principal components?" and "Which features have the strongest positive or negative influence on each component?".
+Requirements
+Python 3.x
+pandas library
+scikit-learn library
+matplotlib library
 
-## Resources
-Various exercises from Module 11 were used as inspiration, mainly PCA Example and Segmenting with PCA.
+Conclusion
+This project provides a comprehensive approach to clustering cryptocurrencies based on their market performance using K-means clustering and PCA. The optimal number of clusters was determined to be 7 for both the original and PCA-transformed data.
